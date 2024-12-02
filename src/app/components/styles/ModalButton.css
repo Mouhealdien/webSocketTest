@@ -1,0 +1,26 @@
+.icon-button {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  border: none;
+  background-color: #c62229;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  border: 1px solid #c62229;
+  background-color: transparent;
+  color: #c62229;
+}
+
+.icon-button-edit {
+  background-color: rgba(25, 59, 104);
+}
+
+.icon-button-edit:hover {
+  border: 1px solid rgba(25, 59, 104);
+  background-color: transparent;
+  color: rgba(25, 59, 104);
+}

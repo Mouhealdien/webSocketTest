@@ -1,0 +1,26 @@
+.icon-button {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.icon-button.default-style {
+  background-color: #c62229;
+  color: white;
+}
+
+.icon-button.default-style:hover {
+  border-color: #c62229;
+  background-color: transparent;
+  color: #c62229;
+}
+
+@media (max-width: 640px) {
+  .icon-button {
+    font-size: 1.5rem;
+    padding: 0.4rem;
+  }
+}

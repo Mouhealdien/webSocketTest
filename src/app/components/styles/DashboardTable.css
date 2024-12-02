@@ -1,0 +1,51 @@
+.dashboard-table {
+  overflow-x: auto;
+}
+
+.dashboard-table table {
+  width: 100%;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+.dashboard-table thead {
+  font-size: 0.75rem;
+  color: white;
+  background-color: #c62229;
+  text-align: center;
+}
+
+.dashboard-table thead th {
+  padding: 0.75rem 1.5rem;
+}
+
+.dashboard-table tbody tr {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.dashboard-table tbody tr.odd {
+  background-color: white;
+  color: black;
+}
+
+.dashboard-table tbody tr.even {
+  background-color: rgba(198, 34, 41, 0.2);
+  color: black;
+}
+
+.dashboard-table tbody td {
+  padding: 1rem 1.5rem;
+}
+
+.dashboard-table td.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.body-width {
+  width: 24rem;
+}

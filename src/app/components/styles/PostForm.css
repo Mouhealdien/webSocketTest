@@ -1,0 +1,40 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+.inputs-2col {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.input-container {
+  width: 100%;
+}
+
+.error {
+  color: #ef4444;
+}
+
+.form-button {
+  width: 30%;
+  background-color: #c62229;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #ffffff;
+  border: 1px solid #c62229;
+  color: #c62229;
+}
